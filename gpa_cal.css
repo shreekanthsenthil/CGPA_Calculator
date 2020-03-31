@@ -1,15 +1,67 @@
+body{
+    background-image: url("background1.png");
+}
+
+
+
 select{
-    min-width: 120px;
-    left: 0;
+    font: 30px/20px "Times New Roman", serif;
+    min-width: 140px;
+    position: relative;
+    top: 320px;
+    left: 42%;
     text-align: center;
     font-size: 16px;
 
 }
-#p1{
-    margin-left: 20px;
+
+p{
+    color: floralwhite;
+}
+
+#credit{
+    font: bold 40px/30px Georgia, serif;
+    position: absolute;
+    top: 27%;
+    margin-left: 42%;
     text-align: center;
 }
 
-h1{
+#grad{
+    font: bold 40px/30px Georgia, serif;
+    position: absolute;
+    top: 27%;
+    margin-left: 50%;
     text-align: center;
+}
+
+#add{
+    min-width: 120px;
+    font: 30px/20px "Times New Roman", serif;
+    position: relative;
+    top: 355px;
+    margin-left: 810px;
+}
+
+#del{
+    min-width: 120px;
+    font: 30px/20px "Times New Roman", serif;
+    position: relative;
+    top: 325px;
+    margin-left: 950px;
+}
+
+#cgbutton{
+    min-width: 200px;
+    font: 30px/20px "Times New Roman", serif;
+    position: relative;
+    top: 375px;
+    margin-left: 820px;
+}
+
+#cgpa{
+    font: bold 40px/30px Georgia, serif;
+    position: relative;
+    top: 385px;
+    margin-left: 820px;
 }
