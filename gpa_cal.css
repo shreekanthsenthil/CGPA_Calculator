@@ -51,15 +51,15 @@ p{
     margin-left: 950px;
 }
 
-#cgbutton{
-    min-width: 200px;
+#gpabutton{
+    min-width: 250px;
     font: 30px/20px "Times New Roman", serif;
     position: relative;
     top: 375px;
     margin-left: 820px;
 }
 
-#cgpa{
+#gpa{
     font: bold 40px/30px Georgia, serif;
     position: relative;
     top: 385px;

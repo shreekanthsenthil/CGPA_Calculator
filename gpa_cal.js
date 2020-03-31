@@ -77,7 +77,7 @@ function del_course() {
     i -=1;
 }
 
-function cal_cgpa() {
+function cal_gpa() {
     var j;
     var total_grade = 0;
     var total_credit=0;
@@ -95,12 +95,12 @@ function cal_cgpa() {
         total_grade += credit * grade;
         total_credit += credit;
     }
-    var cgpa = total_grade / total_credit;
+    var gpa = total_grade / total_credit;
     if(total_credit == 0){
-        cgpa = 0;
+        gpa = 0;
     }
-    cgpa = cgpa.toFixed(2);
-    document.getElementById('cgpa').innerHTML = "CGPA : " + cgpa;
+    gpa = gpa.toFixed(2);
+    document.getElementById('gpa').innerHTML = "GPA : " + gpa;
 }
 
 add_course();
